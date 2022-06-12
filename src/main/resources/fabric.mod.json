@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "extra_frogs",
+  "version": "${version}",
+  "name": "Extra Frog Variants",
+  "description": "Adds more frog variants to Minecraft!",
+  "authors": [
+    "carolynkrell"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/extra_frogs/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.carolynkrell.ExtraFrogs"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "extra_frogs.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.7",
+    "fabric": "*"
+  }
+}
